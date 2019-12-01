@@ -4,6 +4,7 @@
 // https://github.com/eycorsican/rule-sets/blob/master/kitsunebi_default.conf 
 // https://github.com/apqg/yang/blob/master/myself
 // 这是我自己的list
+
 [RoutingRule]
 
 //google
@@ -16,7 +17,9 @@ DOMAIN-KEYWORD,ggpht,PROXY
 DOMAIN-KEYWORD,google,PROXY 
 DOMAIN-KEYWORD,gvt1,PROXY 
 IP-CIDR,1.2.3.4,PROXY 
-//以上两个是谷歌商店必须要用的。  
+//以上两个是谷歌商店必须要用的
+
+//常用
 DOMAIN-KEYWORD, onedrive,Proxy 
 DOMAIN-KEYWORD, onenote,Proxy 
 DOMAIN-KEYWORD, live,Proxy   
