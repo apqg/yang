@@ -8,6 +8,8 @@
 
 //google
 DOMAIN-KEYWORD,google,PROXY
+DOMAIN-KEYWORD,googleusercontent,PROXY
+DOMAIN-KEYWORD,*google*,PROXY
 DOMAIN-KEYWORD,google*,PROXY
 DOMAIN-KEYWORD,googleapis,PROXY
 DOMAIN-SUFFIX,googleapis.com,PROXY
