@@ -8,12 +8,12 @@
 
 //google
 DOMAIN-KEYWORD,google,PROXY
+DOMAIN-KEYWORD,google*,PROXY
 DOMAIN-KEYWORD,youtube,PROXY
 DOMAIN-KEYWORD,ytimg,PROXY
 //此为缩略图 
 DOMAIN-KEYWORD,ggpht,PROXY
-//此为封面   
-DOMAIN-KEYWORD,google,PROXY
+//此为封面
 DOMAIN-KEYWORD,gvt1,PROXY
 IP-CIDR,1.2.3.4,PROXY
 //以上两个是谷歌商店必须要用的
