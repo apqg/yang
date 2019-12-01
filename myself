@@ -58,7 +58,7 @@ DOMAIN-KEYWORD,twitter,PROXY
 DOMAIN-KEYWORD,javsin,PROXY
 DOMAIN-KEYWORD,javfim,PROXY
 
-FINAL,direct
+FINAL,DIRECT
 [RoutingDomainStrategy]
 AsIs 
 [LocalPolicy]
