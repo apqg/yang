@@ -6,12 +6,13 @@
 // 这是我自己的list
 [RoutingRule]
 
-//google youtube
+//google
 DOMAIN-KEYWORD,google,PROXY
 DOMAIN-KEYWORD,googleusercontent,PROXY
 DOMAIN-KEYWORD,*google*,PROXY
 DOMAIN-KEYWORD,googleapis,PROXY
 DOMAIN-SUFFIX,googleapis.com,PROXY
+//YouTube
 DOMAIN-KEYWORD,youtube,PROXY
 DOMAIN-KEYWORD,ytimg,PROXY
 //此为缩略图 
