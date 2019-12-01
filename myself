@@ -4,6 +4,9 @@
 // https://github.com/eycorsican/rule-sets/blob/master/kitsunebi_default.conf 
 [RoutingRule]
 
+//google
+DOMAIN-KEYWORD,google,PROXY
+
 
 FINAL,direct
 [RoutingDomainStrategy]
