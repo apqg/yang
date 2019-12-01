@@ -20,9 +20,9 @@ IP-CIDR,1.2.3.4,PROXY
 //以上两个是谷歌商店必须要用的
 
 //常用
-DOMAIN-KEYWORD, onedrive,Proxy 
-DOMAIN-KEYWORD, onenote,Proxy 
-DOMAIN-KEYWORD, live,Proxy   
+DOMAIN-KEYWORD, onedrive,PROXY 
+DOMAIN-KEYWORD, onenote,PROXY 
+DOMAIN-KEYWORD, live,PROXY   
 DOMAIN-KEYWORD,t66y,PROXY 
 DOMAIN-SUFFIX,t66y.com,PROXY
 
