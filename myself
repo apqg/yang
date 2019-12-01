@@ -4,7 +4,6 @@
 // https://github.com/eycorsican/rule-sets/blob/master/kitsunebi_default.conf 
 // https://github.com/apqg/yang/blob/master/myself
 // 这是我自己的list
-
 [RoutingRule]
 
 //google
@@ -58,8 +57,6 @@ DOMAIN-KEYWORD,javmost,PROXY
 DOMAIN-KEYWORD,twitter,PROXY  
 DOMAIN-KEYWORD,javsin,PROXY
 DOMAIN-KEYWORD,javfim,PROXY
-
-
 
 FINAL,direct
 [RoutingDomainStrategy]
