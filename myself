@@ -2,6 +2,8 @@
 //
 // For a more detailed sample, see:
 // https://github.com/eycorsican/rule-sets/blob/master/kitsunebi_default.conf 
+// https://github.com/apqg/yang/blob/master/myself
+// 这是我自己的list
 [RoutingRule]
 
 //google
