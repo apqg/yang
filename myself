@@ -1,0 +1,41 @@
+// This is only a sample rule set.
+//
+// For a more detailed sample, see:
+// https://github.com/eycorsican/rule-sets/blob/master/kitsunebi_default.conf 
+[RoutingRule]
+
+
+FINAL,direct
+[RoutingDomainStrategy]
+AsIs 
+[LocalPolicy]
+bufferSize = 4096
+connIdle = 300
+downlinkOnly = 0
+handshake = 4
+uplinkOnly = 0 
+[DnsServer]
+223.5.5.5
+8.8.8.8, 53, Remote 
+[DnsRule]
+DOMAIN-KEYWORD, google, Remote
+DOMAIN-SUFFIX, fb.com, Remote 
+[DnsHost]
+geosite:category-ads-all = 127.0.0.1 
+[DnsClientIp]
+115.239.211.92 
+[Log]
+# debug/info/warning/error/none
+loglevel = none 
+[PerAppVpn]
+# On/Off
+Off 
+[PerAppMode]
+# Allow/Disallow
+Allow 
+[PerAppAllow]
+# Regex expressions to match package names.
+.*google.*
+.*twitter.* 
+[PerAppDisallow]
+.*tencent.*
