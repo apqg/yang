@@ -1,7 +1,3 @@
- Skip to content
-eycorsican / rule-sets
-Code Issues 2 Pull requests 0 Projects 0 Wiki Security Pulse Community
-rule-sets/kitsunebi_default.conf
 
 // Section names such as "DnsServer", "DnsRule" are all case-insensitive.
 // All empty lines and whitespaces will be omitted, comment lines are
@@ -12,20 +8,6 @@ rule-sets/kitsunebi_default.conf
 // Rules better group by their types (DOMAIN/IP/USER-AGENT)
 // and targets (PROXY/DIRECT/REJECT) for better performance.
 //
-// ==== block rules ====
-//
-// google
-DOMAIN-SUFFIX,doubleclick.net,REJECT  
-// ==== prioritized proxy rules ====
-DOMAIN-SUFFIX,setup.icloud.com,PROXY
-IP-CIDR,8.8.8.8/32,PROXY
-IP-CIDR,8.8.4.4/32,PROXY
-IP-CIDR,1.1.1.1/32,PROXY
-IP-CIDR,1.0.0.1/32,PROXY
-IP-CIDR,9.9.9.9/32,PROXY
-IP-CIDR,149.112.112.112/32,PROXY
-IP-CIDR,208.67.222.222/32,PROXY
-IP-CIDR,208.67.220.220/32,PROXY  
 // ==== direct rules ====
 //
 // ip rules
@@ -176,6 +158,4 @@ www.localnetwork.uop=127.0.0.1
 115.239.211.92 
 [RoutingDomainStrategy]
 // https://www.v2ray.com/chapter_02/03_routing.html 
-IPIfNonMatch     
-
-
+IPIfNonMatch
