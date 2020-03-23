@@ -1,4 +1,4 @@
-#!MANAGED-CONFIG https://raw.githubusercontent.com/apqg/yang/master/Josn%20Jms-2
+#!MANAGED-CONFIG https://raw.githubusercontent.com/apqg/yang/master/Josn_Jms-2
 
 [General]
 dns-server=system, 223.5.5.5
