@@ -1,4 +1,4 @@
-#!MANAGED-CONFIG
+#!MANAGED-CONFIG https://raw.githubusercontent.com/apqg/yang/master/Josn_vmess_cn6
 
 [General]
 dns-server=system, 223.5.5.5
